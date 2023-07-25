@@ -50,7 +50,7 @@ a.icon-link:hover {
 @media only screen and (max-width: 800px) {
   .navbar {
     padding: 20px 20px;
-    background-color: white
+    background-color: antiquewhite;
   }
 }
 
@@ -73,6 +73,31 @@ a.button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
+}
+
+a.text-link:link {
+  color: gray; 
+  background-color: transparent; 
+  font-style: italic;
+  text-decoration: none;
+}
+
+a.text-link:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.text-link:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.text-link:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 
@@ -103,4 +128,23 @@ a.no-underline:hover {
   #footer {
     padding: 20px 20px;
   }
+}
+
+.dark{
+  background-color: #222;
+  color: antiquewhite;
+}
+
+.dark-with-border{
+  background-color: #222;
+  color: antiquewhite;
+  border: 3px solid antiquewhite;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
