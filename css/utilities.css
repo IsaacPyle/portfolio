@@ -47,12 +47,12 @@ a.icon-link:hover {
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) { */
   .navbar {
     padding: 20px 20px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 251, 245);
   }
-}
+/* } */
 
 
 /* Button Styling */
@@ -130,7 +130,7 @@ a.no-underline:hover {
   }
 }
 
-.dark{
+/* .dark{
   background-color: #222;
   color: antiquewhite;
 }
@@ -147,4 +147,4 @@ a.no-underline:hover {
   display: flex;
   gap: 5px;
   align-items: center;
-}
+} */

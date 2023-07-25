@@ -4,12 +4,12 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
-$(".change" ).on("click", function() {
-    if( $("body").hasClass("dark")) {
-        $("body").removeClass("dark");
-        $("a").removeClass("dark-with-border");
-    } else {
-        $("body").addClass("dark");
-        $("a").addClass("dark-with-border");
-    }
-});
+// $(".change" ).on("click", function() {
+//     if( $("body").hasClass("dark")) {
+//         $("body").removeClass("dark");
+//         $("a").removeClass("dark-with-border");
+//     } else {
+//         $("body").addClass("dark");
+//         $("a").addClass("dark-with-border");
+//     }
+// });
