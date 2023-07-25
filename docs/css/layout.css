@@ -197,7 +197,7 @@ body {
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
-    margin: 75px 50px;
+    margin: 100px 50px;
   }
 
   #portfolio-header {
@@ -212,7 +212,7 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   #main-content {
-    margin: 10px 20px;
+    margin: 100px 20px;
   }
 
   .project-card {
