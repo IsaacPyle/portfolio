@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.render('pages/index');
 });
 
+app.get('/portfolio', (req, res) => {
+    res.render('pages/index');
+});
+
 app.get('/chess-project', (req, res) => {
     res.render('pages/project-pages/chess-project');
 });
