@@ -19,8 +19,8 @@
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
         <span class="nav-title">Isaac's Portfolio.</span>
-        <a class="button" href="mailto:isaac.a.pyle@gmail.com">
-          <span class="button-text">Contact Me!</span>
+        <a class="button" id="email-button" href="mailto:isaac.a.pyle@gmail.com">
+          <span class="button-text">Email Me!</span>
         </a>
         <!-- <a class="button change">
           <span class="button-text">Dark Mode</span>
@@ -65,7 +65,7 @@
       <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">My Work / My Projects</span>
+        <span class="subheader-text">Projects</span>
 
         <div class="projects-container">
           <!-- 
@@ -91,15 +91,17 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-            <img src="./assets/images/desktop.jpeg" class="project-image">
+            <a href="./project-pages/chess-project.html"><img src="./assets/images/Chess-Board.png" class="project-image"></a>
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">A Game of Chess</div>
+              <div class="body-text project-card-text">Designed and developed a python game of chess, in which the opponent moves randomly in order to simulate a real game of chess.</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+            <div>
+              <a class="button" href="https://github.com/IsaacPyle/chess-bot" target="_blank" rel="noreferrer noopener">
+                <span class="button-text">GitHub</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
           </div>
           <div class="project-card">
             <img src="./assets/images/code.jpeg" class="project-image">
@@ -134,15 +136,15 @@
 
         This should be the same across all pages.
       -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      <a class="icon-link" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/channel/UCNSgZQV-SWgmBNBbGbBCrcA">
+        <image src="./assets/icons/youtube.svg" class="footer-icon"/>
       </a>
       <!-- 
         TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
       
         This should be the same across all pages.
       -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <a class="icon-link" target="_blank" rel="noreferrer noopener" href="https://twitter.com/whitevans_eth">
         <image src="./assets/icons/twitter.svg" class="footer-icon"/>
       </a>
       <!-- 
@@ -150,7 +152,7 @@
       
         This should be the same across all pages.
       -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+      <a class="icon-link" href="mailto:isaac.a.pyle@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
     </div>

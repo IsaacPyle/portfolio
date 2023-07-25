@@ -20,7 +20,7 @@ a.icon-link:hover {
   cursor: pointer;
   stroke-width: 5;
   margin: 0;
-  transform: rotate(15deg);
+  transform: rotate(345deg);
 }
 
 
@@ -35,22 +35,34 @@ a.icon-link:hover {
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #303030;
+  color: antiquewhite;
 }
 
 .nav-title-link {
-  color: black;
+  color: antiquewhite;
   text-decoration: none;
 }
 
 .nav-title-link:hover {
+  color: #5b93e0;
   text-decoration: underline;
+}
+
+#email-button {
+  color: antiquewhite;
+  border-color: antiquewhite;
+}
+
+#email-button:hover {
+  color: #5b93e0;
+  border-color: #5b93e0;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 /* @media only screen and (max-width: 800px) { */
   .navbar {
     padding: 20px 20px;
-    background-color: rgb(255, 251, 245);
   }
 /* } */
 
@@ -73,6 +85,9 @@ a.button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
+  color: #5b93e0;
+  border-color: #5b93e0;
+  
 }
 
 a.text-link:link {
