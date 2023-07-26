@@ -7,20 +7,26 @@
   margin-top: 1px;
 }
 
+.left-arrow-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+  transform: rotate(180deg);
+}
+
 .footer-icon {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 a.icon-link {
-  transition: transform 200ms ease-in-out;
+  transition: transform 100ms ease-in-out;
 }
 
 a.icon-link:hover {
-  cursor: pointer;
   stroke-width: 5;
   margin: 0;
-  transform: rotate(340deg);
+  transform: rotate(20deg);
 }
 
 
