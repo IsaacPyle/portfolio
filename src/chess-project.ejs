@@ -1,19 +1,25 @@
-<%- partial('header') %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Chess Project</title>
+    <%- partial('head') %>
+  </head>
+<body>
+  <%- partial('navbar') %>
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
       <div id="project-header">
-          <!-- 
-            TODO
-
-            - Change the 'main-title' text to the name of your project
-            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
-            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
-          -->
+        <div>
+          <a class="button" href="index.html#my-work-section">
+            <image src="./assets/icons/arrow-right.svg" class="left-arrow-icon"/>
+            <span class="button-text">Back to Portfolio</span> 
+          </a>
+        </div>
         <div class="main-title">A Game of Chess</div>
         <div class="body-text">A small description about the project goes here, get the reader hooked on the project and tell them why they should continue to read this page. Give it a sweet tagline.</div>
-        <image class="project-header-image" src="./assets/images/desktop.jpeg">
+        <image class="project-header-image" src="./assets/images/chess-code.png">
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -59,7 +65,7 @@
                   - IMAGE_NAME: the name of the image file in assets/images
                   - IMAGE_CAPTION: to the caption of the image
             -->
-            <div class="gallery-image-container half-width">
+            <!-- <div class="gallery-image-container half-width">
               <img src="./assets/images/code.jpeg" class="gallery-image">
               <span class="image-caption">Give your image a caption. People love context.</span>
             </div>
@@ -70,9 +76,10 @@
             <div class="gallery-image-container">
               <img src="./assets/images/camera.jpeg" class="gallery-image">
               <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
+            </div> -->
         </div>
       </div>
     </div>
-
-<%- partial('footer') %>
+    <%- partial('footer') %>
+  </body>
+</html>

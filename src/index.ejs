@@ -1,4 +1,12 @@
-<%- partial('header') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Isaac Pyle Portfolio</title>
+  <%- partial('head') %>
+</head>
+
+<body>
+  <%- partial('navbar') %>
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
       <div id="portfolio-header">
@@ -62,10 +70,10 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-            <a href="./chess-project.html"><img src="./assets/images/Chess-Board.png" class="project-image"></a>
+            <a href="./chess-project.html"><img src="./assets/images/chess-board.png" class="project-image"></a>
             <div class="project-card-text-container">
               <div class="subheader-text project-title">A Game of Chess</div>
-              <div class="body-text project-card-text">Designed and developed a python game of chess, in which the opponent moves randomly in order to simulate a real game of chess.</div>
+              <div class="body-text project-card-text">Designed and developed a Python game of chess, in which the opponent moves randomly in order to simulate a real game of chess.</div>
             </div>
             <div>
               <a class="button" href="https://github.com/IsaacPyle/chess-bot" target="_blank" rel="noreferrer noopener">
@@ -99,4 +107,6 @@
         </div>
       </div>
     </div>
-<%- partial('footer') %>
+    <%- partial('footer') %>
+  </body>
+</html>
