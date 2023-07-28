@@ -122,6 +122,10 @@ body {
   object-position: center;
 }
 
+.project-image:hover {
+  opacity: .6;
+}
+
 /* Project Pages */
 
 #project-header {
