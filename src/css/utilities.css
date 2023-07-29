@@ -55,12 +55,12 @@ a.icon-link:hover {
   text-decoration: underline;
 }
 
-#email-button {
+#dropdown {
   color: antiquewhite;
   border-color: antiquewhite;
 }
 
-#email-button:hover {
+#dropdown:hover {
   color: #5b93e0;
   border-color: #5b93e0;
 }
