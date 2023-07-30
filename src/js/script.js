@@ -4,6 +4,15 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
+function responsive() {
+  var x = document.getElementById("dropdown-div");
+  if (x.className === "dropdown") {
+    x.className += " responsive";
+  } else {
+    x.className = "dropdown";
+  }
+}
+
 // $(".change" ).on("click", function() {
 //     if( $("body").hasClass("dark")) {
 //         $("body").removeClass("dark");
