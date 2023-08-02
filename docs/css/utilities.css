@@ -34,11 +34,10 @@ a.icon-link:hover {
 
 .navbar {
   width: 100%;
-  padding: 30px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: #303030;
