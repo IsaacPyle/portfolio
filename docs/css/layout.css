@@ -85,6 +85,14 @@ body {
   top: 70px;
 }
 
+.dropdown.responsive .dropdown-content {
+  position: absolute;
+  display: block;
+  top: 70px;
+  right: 10px;
+  text-align: left;
+}
+
 .dropdown-content a {
   float: none;
   color: #303030;
@@ -95,6 +103,9 @@ body {
   text-align: left;
 }
 
+.dropdown-content a:hover {
+  color: gray;
+}
 
 /* Project Section */
 
@@ -204,10 +215,6 @@ body {
   height: auto;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
@@ -227,10 +234,6 @@ body {
 @media only screen and (max-width: 1000px) {
   #main-content {
     margin: 100px 75px;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: none;
   }
 
   .dropdown .dropbtn {
@@ -268,10 +271,6 @@ body {
     max-width: calc((100% - 16px) / 2);
   }
 
-  .dropdown:hover .dropdown-content {
-    display: none;
-  }
-
   .dropdown .dropbtn {
     display: none;
   }
@@ -301,10 +300,6 @@ body {
 
   .project-card {
     max-width: 100%;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: none;
   }
 
   .dropdown .dropbtn {
