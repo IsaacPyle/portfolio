@@ -228,6 +228,30 @@ body {
   #main-content {
     margin: 100px 75px;
   }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .dropdown .dropbtn {
+    display: none;
+  }
+
+  .dropdown a.dropdown-icon {
+    float: right;
+    display: block;
+    color: antiquewhite;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .dropdown.responsive .dropdown-content {
+    position: absolute;
+    display: block;
+    top: 70px;
+    right: 10px;
+    text-align: left;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -275,12 +299,12 @@ body {
     margin: 100px 20px;
   }
 
-  .dropdown:hover .dropdown-content {
-    display: none;
-  }
-
   .project-card {
     max-width: 100%;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
   }
 
   .dropdown .dropbtn {
