@@ -96,14 +96,14 @@ a.button:hover {
 }
 
 a.text-link:link {
-  color: gray; 
+  color: rgb(76, 186, 223); 
   background-color: transparent; 
   font-style: italic;
   text-decoration: none;
 }
 
 a.text-link:visited {
-  color: gray;
+  color: rgb(76, 186, 223);
   background-color: transparent;
   text-decoration: none;
 }
@@ -115,7 +115,7 @@ a.text-link:hover {
 }
 
 a.text-link:active {
-  color: gray;
+  color: rgb(76, 186, 223);
   background-color: transparent;
   text-decoration: underline;
 }

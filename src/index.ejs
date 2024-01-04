@@ -25,6 +25,8 @@
                   <li>PostgreSQL</li>
                   <li>AWS</li>
                   <li>Docker</li>
+                  <li>Typescript</li>
+                  <li>Node.js</li>
                 </ul>
                 and many other tools.</div>
             </div>
@@ -39,7 +41,7 @@
       <div id="about-section">
         <span class="subheader-text">About Me</span>
         <div class="about-section-content">
-          <div class="body-text">I graduated cum laude from the <a class="text-link" href="https://www.colorado.edu" target="_blank" rel="noreferrer noopener">University of Colorado - Boulder</a> 
+          <div class="body-text">I graduated cum laude from the <a class="text-link" href="https://www.colorado.edu" target="_blank" rel="noreferrer noopener">University of Colorado</a> 
             in May of 2022 with a degree in Computer Science from the Engineering Department. 
             Some of my recent classes were 'Object Oriented Programming' and 'Software Development Methods and Tools', 
             which prepared me appropriately for a position at <a class="text-link" href="https://www.garmin.com/en-US/garmin-pay/" target="_blank" rel="noreferrer noopener">Garmin International</a> 
@@ -47,7 +49,15 @@
           </div>
           <div class="body-text">More specifically, I quickly got up to speed using Spring and Spring boot to build and maintain 
             RESTful APIs which are the backbone of the platform. It has a distributed microservice architecture running in docker containers,
-            and these talk using RabbitMQ as the messaging broker. </div>
+            and these talk using RabbitMQ as the messaging broker. We integrated with third party card networks like Mastercard, Visa, and Discover to
+            manage tokens which represented a digital credit card for the user.
+          </div>
+          <div class="body-text">After acquiring these skills at Garmin and quickly being promoted to an L2, I joined 
+            <a class="text-link" href="https://www.corrisoft.com" target="_blank" rel="noreferrer noopener">Corrisoft</a> full time to help with a new initiative they had begun work on. 
+            Our task was to redesign their event processing system which was using php and a cron job to check for new events to process. We decided to begin converting this logic into an 
+            AWS Lambda, using node.js and typescript to address a lot of abiguity issues we had seen in the php implementation. We used ActiveMQ to send messages from the php to the lambda, and 
+            Jest for unit testing as we developed. 
+          </div>
         </div>
       </div>
 
